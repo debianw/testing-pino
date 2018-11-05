@@ -1,0 +1,19 @@
+{
+  "name": "test-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node service.js | node logger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^5.8.0",
+    "pump": "^3.0.0",
+    "split2": "^3.0.0",
+    "through2": "^2.0.3"
+  }
+}
