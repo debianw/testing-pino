@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pino": "^5.8.0",
+    "pino": "^5.8.1",
     "pump": "^3.0.0",
     "split2": "^3.0.0",
     "through2": "^2.0.3"
